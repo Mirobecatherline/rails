@@ -10,7 +10,7 @@ Rails.application.configure do
 
   # Do not eager load code on boot.
   config.eager_load = false
-
+  config.hosts << "rails-production-9be4.up.railway.app"
   # Show full error reports.
   config.consider_all_requests_local = true
 
